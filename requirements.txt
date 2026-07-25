@@ -1,0 +1,28 @@
+# ============================================================
+# Indian Multilingual Assistant - Dependencies
+# ============================================================
+# Minimum compatible versions for Kaggle Notebook, local,
+# Docker, and Hugging Face Spaces environments.
+# Strict version pinning is intentionally avoided to prevent
+# conflicts with packages already installed by Kaggle.
+# ============================================================
+
+# --- Core Deep Learning ---
+torch>=2.1.0
+
+# --- Hugging Face Ecosystem ---
+transformers>=4.41.0
+peft>=0.11.0
+trl>=0.9.0
+datasets>=2.19.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+huggingface_hub>=0.23.0
+python-dotenv>=1.0.1
+
+# --- Web UI for Inference ---
+gradio>=4.0.0
+
+# --- Tokenization & Utilities ---
+sentencepiece>=0.2.0
+scipy>=1.10.0
