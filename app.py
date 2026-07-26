@@ -1,11 +1,11 @@
 """
-============================================================
+
 Indian Multilingual Assistant - Gradio Inference App
-============================================================
+
 
 This app loads the base Llama-3.2-1B-Instruct model together with
 the LoRA adapter trained in `training.ipynb`, and serves it through
-a simple Gradio web interface supporting 10 Indian languages.
+a simple Gradio web interface supporting 4 Indian languages.
 
 Run locally:   python app.py
 Run in Docker: docker build -t indian-assistant . && docker run -p 7860:7860 indian-assistant
@@ -282,4 +282,8 @@ with gr.Blocks(title="Indian Multilingual Assistant") as demo:
 if __name__ == "__main__":
     # server_name="0.0.0.0" makes the app accessible from outside the container
     # (required for Docker and Hugging Face Spaces).
-    demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
+    #demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
+    demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 7860))
+    )
