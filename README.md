@@ -79,4 +79,33 @@ The project demonstrates an end-to-end Generative AI workflow including dataset 
 
 - Python Dotenv
 
+## 📸 Application Demo
+
+### English to Tamil Translation
+
+![English to Tamil Translation Demo](Engtotamil.png)
+
+### Tamil to English Translation
+
+![Tamil to English Translation Demo](Tamiltoenglish.png)
+
+### English to Marathi Translation
+
+![English to Marathi Translation Demo](engtomarathi.png)
+
+### Marathi to English Translation
+
+![Marathi to English Translation Demo](marathitoenglish.png)
+
+### Hindi Passage Generation
+
+![Hindi Passage Generation Demo](Hindipassage.png)
+
+### English to Hindi Translation
+
+![English to Hindi Translation Demo](engtoHindi.png)
+
+
+
+
   
