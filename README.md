@@ -13,24 +13,25 @@ The project demonstrates an end-to-end Generative AI workflow including dataset 
 - Parameter-Efficient Fine-Tuning using QLoRA
   
 - LoRA Adapter-based inference
-- 
+  
 - Supports multiple Indian languages:
   - English
-  - 
+   
   - Hindi
-  - 
+   
   - Marathi
-  - 
+   
   - Tamil
 - Interactive Gradio Interface
-- 
+  
 - Automatic CPU/GPU detection
-- 
+  
 - Hugging Face integration
-- 
+  
 - Memory-efficient inference
-- 
+  
 - Configurable generation parameters
+  
 ## 🏗️ Project Architecture
 
 
@@ -49,3 +50,33 @@ The project demonstrates an end-to-end Generative AI workflow including dataset 
                   │
                   ▼
         Generated Response
+        
+## 🛠️ Technologies Used
+
+### Programming Language
+
+- Python
+
+### Deep Learning
+
+- PyTorch
+
+### Large Language Models
+
+- Transformers
+- PEFT
+- BitsAndBytes
+
+### Interface
+
+- Gradio
+
+### Model Hub
+
+- Hugging Face Hub
+
+### Environment
+
+- Python Dotenv
+
+  
